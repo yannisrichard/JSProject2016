@@ -45,7 +45,7 @@ var Liste = React.createClass({
     		</tr>
   		</thead>
   		<tbody>
-			//Ne fonctionne pas.
+			//Ne fonctionne pas.w
 			//for (var item in this.state.listeEpisodes){
 			//	<td className="td__content">item</th>
 			//}
