@@ -1,6 +1,13 @@
 body {
-	font-size: 20px;
-	padding: 50px;
+	padding: 100px;
+}
+
+.container
+{
+	width: 1024px;
+	height: auto;
+	margin: 0 auto;
+	background: #CCCCCC;
 }
 
 #tabEpisodes thead tr td {
@@ -20,15 +27,6 @@ table td {
 	color: blue;
 	padding: 8px;
 	border-radius: 5px;
-}
-
-.container
-{
-	width: 1024px;
-	height: auto;
-	margin: 0 auto;
-	padding: 10px;
-	background: #CCCCCC;
 }
 
 .table
@@ -51,7 +49,6 @@ table td {
 .form
 {	
 	text-align: center;
-	width: 100%;
 	height: auto;
 	background: #888888;
 	padding: 20px;
@@ -65,61 +62,64 @@ table td {
 @media screen and (max-width: 1024px)
 {
 
-body {
-	font-size: 20px;
-	padding: 50px;
-}
+	body {
+		padding: 10px;
+	}
 
-#content, #ensemble-form {
-	display: inline-block;
-}
+	.container
+	{
+		width: 100%;
+	}
 
-table td {
-	width: 200px;
-}
-
-.container
-{
-	width: 1024px;
-	height: auto;
-	margin: 0 auto;
-	padding: 10px;
-}
-
-.table
-{
-	width: 100%;
-	height: auto;
-}
-
-.th__head{
-	padding: 10px 110px 10px 90px;
-}
-
-.td__content{
-	padding: 10px 100px 10px 100px;
-}
-
-.form
-{	
-	width: 100%;
-	height: auto;
-	padding: 20px;
-}
-
+	.table
+	{
+		width: auto;
+	}
 
 }
 
-@media screen and (max-width: 920px)
+@media screen and (max-width: 985px)
 {
 
-	
+	.th__head{
+		padding: 10px 100px 10px 80px;
+	}
+
+	.td__content{
+		padding: 10px 90px 10px 90px;
+	}
+
+}
+
+@media screen and (max-width: 810px)
+{
+
+	.th__head{
+		padding: 10px 0 10px 0;
+	}
+
+	.td__content{
+		padding: 10px 0 10px 0;
+	}
+
 }
 
 
 @media screen and (max-width: 514px)
 {
+	body {
+		padding: 0px;
+	}
 
+	.container
+	{
+		margin: 0 0;
+	}
+
+	.form span input
+	{	
+		display: block;
+	}
 }
 
 
