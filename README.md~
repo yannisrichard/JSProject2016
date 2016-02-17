@@ -1,0 +1,22 @@
+# Projet JS
+
+Technologie : 
+Javascript ES6.
+CSS3.
+ReactJS JSX.
+
+# Instructions :
+1 - Installer les dépendances de node dans les dossier ReactJS et NodeJS/test :
+npm install
+
+2 - Lancer le serveur node dans le dossier NodeJS localhost:9312 :
+node --harmony --use_strict server/index.js
+
+2 (Option) - Lancer les tests dans le dossier NodeJS : 
+./run_test.sh depuis le dossier server
+
+3 - Générer le fichier bundle.js dans le dossier ReactJS :
+node_modules/.bin/webpack -w --config webpack.config.js
+
+4 - Lancer index.html dans un navigateur.
+

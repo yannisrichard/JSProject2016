@@ -1,0 +1,9 @@
+RICHARD Yannis, yannisrichard63@gmail.com
+THUAIRE Clement, 9 rue des chanelles, Clement.Thuaire@etu.udamail.fr
+
+Le serveur Node fonctionne correctement avec tous les tests qui passent.
+L'application ReactJS n'utilise ni bootstrap et jquery.
+La partie css est également responsive et a été réalisé avec @media screen.
+Le POST fonctionne..
+Le GET ne fonctionne pas par contre, nous avons rencontré des problémes pour faire fonctionner le fetch.
+

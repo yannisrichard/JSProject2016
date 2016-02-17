@@ -1,0 +1,118 @@
+/***************************************************************************************/
+/**************************************  Import ****************************************/
+/***************************************************************************************/
+import React from 'react'
+import { render } from 'react-dom'
+//Faire un import afin d'inclure le component. Marche plus a revoir
+
+import { Liste } from './listComponent.js';
+import { ItemListe } from './itemListComponent.js';
+import { AddForm } from './formComponent.js';
+import { ButtonForm } from './buttonComponent.js';
+
+
+/***************************************************************************************/
+/**************************************  Fin Import ************************************/
+/***************************************************************************************/
+
+/***************************************************************************************/
+/**************************************  Container *************************************/
+/***************************************************************************************/
+
+//~ var Container = React.createClass({
+  //~ render: function() {
+  //~ return (
+       //~ <div className="container">
+		 //~ <div className="table">
+			//~ <Liste/>
+		//~ </div>
+		 //~ <div>
+			//~ <AddForm/>
+			//~ <ButtonForm/>
+		//~ </div>
+	 //~ </div>
+    //~ );
+  //~ }
+//~ });
+
+
+/***************************************************************************************/
+/************************************** Fin Container **********************************/
+/***************************************************************************************/
+
+/***************************************************************************************/
+/********************************* Component  ******************************************/
+/***************************************************************************************/
+
+
+//~ var List = React.createClass({
+  //~ render: function() {
+    //~ return <table id="tabEpisodes">
+  		//~ <thead>
+  			//~ <tr>
+    			//~ <td>Id</td>
+    			//~ <td>Serie</td> 
+    			//~ <td>Season</td>
+    			//~ <td>Episode</td>
+    		//~ </tr>
+  		//~ </thead>
+  		//~ <tbody className="tabEpisodes">
+			//~ <ItemListe id="1" serie="Prison Break" season="1" episode="1" />
+  		//~ </tbody>
+  	//~ </table>;
+  //~ }
+//~ });
+//~ 
+//~ var ItemListe = React.createClass({
+  //~ render: function() {
+    //~ return <tr>
+    //~ <td>{this.props.id}</td>
+    //~ <td>{this.props.serie}</td>
+    //~ <td>{this.props.season}</td>
+    //~ <td>{this.props.episode}</td>
+    //~ </tr>;
+  //~ }
+//~ });
+//~ 
+//~ var AddForm = React.createClass({
+  //~ render: function() {
+    //~ return <form method="POST" action="" className="formulaire">
+    	//~ <label>Série </label><input type="text" name="serie"/><br/>
+    	//~ <label>Saison </label><input type="text" name="season"/><br/>
+    	//~ <label>Episode</label><input type="text" name="episode"/><br/>
+    //~ </form>;
+  //~ }
+//~ });
+//~ 
+//~ var ButtonForm = React.createClass({
+	//~ valid: function (event) {
+		//~ 
+		//~ var serie = document.querySelector("input[name=serie]").value;
+		//~ var saison = document.querySelector("input[name=season]").value;
+		//~ var episode = document.querySelector("input[name=episode]").value;
+		//~ var json = '{"serie":"'+serie+'","season":"'+saison+'","episode":"'+episode+'"}';
+		//~ 
+		//~ fetch('http://localhost:9312/', {
+    		//~ method: 'post',
+    		//~ mode: 'no-cors',
+    		//~ body: json
+		//~ }).then(function(response) {
+    		//~ console.log(response);
+		//~ }).catch(function(err) { 
+		//~ 
+		//~ });
+	//~ },
+  //~ render: function() {
+    //~ return <button id="bouton" className="formulaire-button" onClick={this.valid}>Ajouter</button>;
+  //~ }
+//~ });
+
+
+/***************************************************************************************/
+/**************************************Fin Component************************************/
+/***************************************************************************************/
+
+
+//~ render(<Container/>, document.getElementById('content'));
+
+
